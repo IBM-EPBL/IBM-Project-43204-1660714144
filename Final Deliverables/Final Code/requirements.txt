@@ -1,4 +1,0 @@
-Flask
-ibm-db
-python-dotenv
-sendgrid

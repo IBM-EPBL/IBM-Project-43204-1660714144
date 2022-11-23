@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.register {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: #ffffff;
+    position: relative;
+    left: 60%;
+}
+
+.register h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.register form {
+    font-size: 15px;
+}
+
+.register form .form-group {
+    margin-bottom: 12px;
+}
+
+.register form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.register form select[id="blood_group"] {
+    width: 320px;
+}
+
+.img {
+    content: url('https://pixabay.com/get/ge64d96aaa81992755ddb72c9bbc0f0da23fc82455192ef1c6a57e0ee3900c9fdbbff597bd89fdb3400cb0d9242f29e3b0d1aba6cb4140d3ed64478d82fff6500883d5e865a224525552e6e8858bddef0_1920.png');
+    width: 500px;
+    height: 500px;
+    left: 10%;
+    position: absolute;
+}
